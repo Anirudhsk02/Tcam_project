@@ -18,7 +18,7 @@ src/: Contains the Verilog HDL source code for the TCAM implementation, includin
 
 ## Setup and Usage
 
-Clone the repository: git clone https://github.com/username/sram-based-tcam.git
+Clone the repository: git clone 
 Open the project in your preferred HDL development environment (e.g., Quartus Prime, Vivado).
 
 Compile the Verilog source files and testbench files.
