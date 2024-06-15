@@ -6,11 +6,11 @@ The primary objective of this work is to develop an efficient TCAM architecture 
 
 ## Key Features
 
-TCAM Encoding Algorithms: Efficient algorithms to encode TCAM functionality using multiple RAM blocks, enabling parallel search operations and handling ternary words with don't-care states.
-Width and Depth Division: Techniques to divide the TCAM width and depth across multiple RAM blocks, optimizing memory utilization for large TCAM configurations.
+- TCAM Encoding Algorithms: Efficient algorithms to encode TCAM functionality using multiple RAM blocks, enabling parallel search operations and handling ternary words with don't-care states.
+- Width and Depth Division: Techniques to divide the TCAM width and depth across multiple RAM blocks, optimizing memory utilization for large TCAM configurations.
 TCAM Operations: Implementation of TCAM write, read, and lookup operations in Verilog HDL.
-Simulation and Verification: Comprehensive simulation and verification of the TCAM design using ModelSim, with various test cases to validate the correctness of the implementation.
-Hardware Synthesis: Synthesis and mapping of the TCAM design onto a Cyclone IV FPGA, demonstrating the practical feasibility of realizing high-performance TCAM architectures on reconfigurable hardware.
+- Simulation and Verification: Comprehensive simulation and verification of the TCAM design using ModelSim, with various test cases to validate the correctness of the implementation.
+
 
 ## Repository Structure
 
@@ -18,8 +18,8 @@ src/: Contains the Verilog HDL source code for the TCAM implementation, includin
 
 ## Setup and Usage
 
-Clone the repository: git clone https://github.com/Anirudhsk02/Tcam_project
-Open the project in your preferred HDL development environment (e.g., Quartus Prime, Vivado).
+- Clone the repository: git clone https://github.com/Anirudhsk02/Tcam_project
+- Open the project in your preferred HDL development environment (e.g., Quartus Prime, Vivado).
 
-Compile the Verilog source files and testbench files.
-Run simulations using ModelSim or your preferred simulator to verify the TCAM functionality.
+- Compile the Verilog source files and testbench files.
+- Run simulations using ModelSim or your preferred simulator to verify the TCAM functionality.
